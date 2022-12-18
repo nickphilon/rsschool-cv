@@ -12,70 +12,74 @@
 
 <body>
     <header>
-        <nav>
-            <ul class="hr">
-                <li><a class="borders" href="#Info"><span>Info</span></a></li>
-                <li><a class="borders" href="#Skills"><span>Skills</span></a></li>
-                <li><a class="borders" href="#Education"><span>Education</span></a></li>
-                <li><a class="borders" href="#Example"><span>Example of Code</span></a></li>
-                <li><a class="borders" href="#Contacts"><span>Contacts</span></a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav>
+                <ul class="hr">
+                    <li><a class="borders" href="#Info"><span>Info</span></a></li>
+                    <li><a class="borders" href="#Skills"><span>Skills</span></a></li>
+                    <li><a class="borders" href="#Education"><span>Education</span></a></li>
+                    <li><a class="borders" href="#Example"><span>Example of Code</span></a></li>
+                    <li><a class="borders" href="#Contacts"><span>Contacts</span></a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <img src="nick_photo.jpg" alt="nick_photo" width="250" height="250">
-        <h1>Nick Philon</h1>
-        <table style="width:100%">
-            <tr>
-                <td id="Info" style="padding-left: 100px; background-color: #808080;">
-                    <h2>Info</h2>
-                </td>
-                <td id="Skills" style="padding-left: 100px; background-color: #808080;">
-                    <h2>Skills</h2>
-                </td>
-            </tr>
-            <tr>
-                <td style="padding: 10px;">
-                    <p style="text-align:left;"> Hello, my name is Nick. I'm starting my way to the frontend. I am 40 years old and currently a college teacher.
-                        I hope my diligence and the courses will help me to obtain useful knowledge.
-                    </p>
-                </td>
-                <td style="width:50%; padding: 10px; text-align:left;">
-                    <p style="text-align: left;"> 
-                        <ul type="none">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Python (beginner)</li>
-                            <li>Computing Networks</li>
-                            <li>DataBases (SQL)</li>
-                        </ul>
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td id="Education" style="padding-left: 100px; background-color: #808080;">
-                    <h2>Education+Job</h2>
-                </td>
-                <td id="Example" style="padding-left: 100px; background-color: #808080;">
-                    <h2>Example of Code</h2>
-                </td>
-            </tr>
-            <tr>
-                <td style="padding: 10px; text-align:left;">
-                    <p style="text-align:left;"> 
-                        <ul type="none">
-                            <li>1999-2007 - Gomel State Univercity, Faculty of Mathematics (Spesialist)</li>
-                            <li>2006-2012 - Gomel State Building Liceum (Teacher of IT)</li>
-                            <li>2012-2013 - Gomel State College of Electrotechnics (Teacher of IT)</li>
-                            <li>2013-2014 - Omitex JSC (Manager)</li>
-                            <li>2014-now - Gomel State MachineBuilding College (Teacher of IT)</li>
-                            <li>English Level - A2</li>
-                        </ul>
-                    </p>
-                </td>
-                <td style=" text-align:left; padding: 10px;">
-                    <pre>
+        <div class="container">
+            <img src="nick_photo.jpg" alt="nick_photo" width="250" height="250">
+            <h1>Nick Philon</h1>
+            <table style="width:100%">
+                <tr>
+                    <td id="Info" style="padding-left: 100px; background-color: #808080;">
+                        <h2>Info</h2>
+                    </td>
+                    <td id="Skills" style="padding-left: 100px; background-color: #808080;">
+                        <h2>Skills</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;">
+                        <p style="text-align:left;"> Hello, my name is Nick. I'm starting my way to the frontend. I am
+                            40 years old and currently a college teacher.
+                            I hope my diligence and the courses will help me to obtain useful knowledge.
+                        </p>
+                    </td>
+                    <td style="width:50%; padding: 10px; text-align:left;">
+                        <p style="text-align: left;">
+                            <ul type="none">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Python (beginner)</li>
+                                <li>Computing Networks</li>
+                                <li>DataBases (SQL)</li>
+                            </ul>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="Education" style="padding-left: 100px; background-color: #808080;">
+                        <h2>Education+Job</h2>
+                    </td>
+                    <td id="Example" style="padding-left: 100px; background-color: #808080;">
+                        <h2>Example of Code</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; text-align:left;">
+                        <p style="text-align:left;">
+                            <ul type="none">
+                                <li>1999-2007 - Gomel State Univercity, Faculty of Mathematics (Spesialist)</li>
+                                <li>2006-2012 - Gomel State Building Liceum (Teacher of IT)</li>
+                                <li>2012-2013 - Gomel State College of Electrotechnics (Teacher of IT)</li>
+                                <li>2013-2014 - Omitex JSC (Manager)</li>
+                                <li>2014-now - Gomel State MachineBuilding College (Teacher of IT)</li>
+                                <li>English Level - A2</li>
+                            </ul>
+                        </p>
+                    </td>
+                    <td style=" text-align:left; padding: 10px;">
+                        <pre>
                         <code>
                             if (numChecked === 0) {
                                 checkAllButton.disabled = false;
@@ -88,18 +92,25 @@
                             }
                         </code>
                     </pre>
-                </td>
-            </tr>
-        </table>
-
+                    </td>
+                </tr>
+            </table>
+        </div>
 
     </main>
 
     <footer class="footer">
-        <h2> <p id="Contacts">Contacts</p></h2>
-        <a href="https://t.me/phillon" title="Find me in Telegram">Telegram</a> 
-        <a href="https://nickphilon.github.io/rsschool-cv/cv">github</a>
-        <a href="https://app.rs.school/"> <img src="./logoRSS.jpg" alt="RSSchool" width="120" height="30" bgcolor="white"></a>
+        <div class="container">
+            <h2>
+                <p id="Contacts">Contacts</p>
+            </h2>
+            <a href="https://t.me/phillon" title="Find me in Telegram">Telegram</a>
+            <a href="#"> &copy; 2022</a>
+            <a href="https://nickphilon.github.io/rsschool-cv/cv">github</a>
+            <br>
+            <a href="https://app.rs.school/"> <img src="./logoRSS.jpg" alt="RSSchool" width="120" height="30"
+                    bgcolor="white"></a>
+        </div>
     </footer>
 </body>
 
