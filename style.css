@@ -130,7 +130,7 @@ a.borders span::after {
 }
 a.borders:hover {
   color: #333;
-  transition: color 0.4s ease-in-out;
+  transition: color 0.7s ease-in-out;
 }
 a.borders:hover::before,
 a.borders:hover::after,
